@@ -26,7 +26,8 @@ import { ProjectDetailsComponent } from './projects/project-details/project-deta
     CoreStateModule,
     UiToolbarModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
