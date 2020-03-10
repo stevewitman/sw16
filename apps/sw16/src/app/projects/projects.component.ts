@@ -37,15 +37,20 @@ export class ProjectsComponent implements OnInit {
   }
 
   select(project: Project) {
+    console.log('SELECT')
     // this.projectsFacade.selectProject(project.id);
     this.formGroup.patchValue(project);
   }
 
   create() {
+    console.log('CREATE')
+
     // this.projectsFacade.createProject(this.formGroup.value);
   }
 
   update() {
+    console.log('UPDATE')
+
     // this.projectsFacade.updateProject(this.formGroup.value);
   }
 
@@ -58,6 +63,8 @@ export class ProjectsComponent implements OnInit {
   }
 
   delete(project: Project) {
+    console.log('DELETE')
+
     // this.projectsFacade.deleteProject(project);
   }
 
